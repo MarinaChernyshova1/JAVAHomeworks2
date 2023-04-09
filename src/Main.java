@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ticketPrice = 13676;
-        int x = 20;
-        int y = ticketPrice/x;
+        int ticketPrice = 15076;
+        int spentRubles = 20;
+        int total = ticketPrice / spentRubles;
 
 
-
-        System.out.println("Итого миль " + y);
+        System.out.println("Итого миль " + total);
 
     }
 }
